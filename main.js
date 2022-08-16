@@ -12,6 +12,7 @@ function GetQueryString(api) {
     if(sname!=null){
         fetch("https://just--test.vercel.app/01?mid="+sname+"&jsonp=jsonp")
         .then(function (a) {
+            console.log("fetch is OK")
           return a.json();
         })
         .then(function (a) {

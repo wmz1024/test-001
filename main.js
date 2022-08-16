@@ -10,7 +10,7 @@ function GetQueryString(api) {
   }
   if (sname!=""){
     if(sname!=null){
-        fetch("https://api.bilibili.com/x/space/upstat?mid="+sname+"&jsonp=jsonp")
+        fetch("https://just--test.vercel.app/01?mid="+sname+"&jsonp=jsonp")
         .then(function (a) {
           return a.json();
         })
